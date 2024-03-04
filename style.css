@@ -1,12 +1,34 @@
 .c1{ /*header*/
     background:black;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
-
+@keyframes index{ /*home,order*/
+    from {background-color:  olive;}
+    to {background-color: brown;}
+}
+.d33:hover{
+    background-color:olive;
+    animation-name: index;
+    animation-duration:6s;
+    border-radius: 5px;
+}
+@keyframes index1{  /* follow us*/
+    from {background-color:black;}
+    to {background-color: rgb(145, 115, 115);}
+}
+.d34:hover{
+    background-color:black;
+    animation-name: index1;
+    animation-duration:10s;
+    border-radius: 3px;
+    border-width: 2px;
+}
 .d3 {  
     border: none;
     float:right;
     padding: 5px;
+
 }
 a:visited{
     color: none;
@@ -18,12 +40,20 @@ a{
     text-decoration: none;
     color:white;
 }
+@keyframes color-change{
+    0% { color: gray;}
+    25% {color : rgb(55, 174, 221);}
+    50% {color : rgb(10, 104, 101); }
+    75% {color : royalblue;}
+    100% {color : rgb(54, 2, 54);}
+}
 .f3{    /*Item*/
-    font-size: 50px;
-    color:rgb(177, 111, 171);
-    font-family: Great Vibes, cursive;
-    text-align: center;
-   
+    font-size: 40px;
+    color:gray;
+    font-family: "Great Vibes", cursive;
+    text-align : center;
+    margin-bottom : 5px;
+    animation: color-change 5s infinite;
 }
 .s1, .d2{
     /*section div*/
