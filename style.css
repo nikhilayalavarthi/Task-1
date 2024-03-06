@@ -3,6 +3,7 @@
     margin-bottom: 10px;
     border-radius: 10px;
 }
+
 @keyframes index{ /*home,order*/
     from {background-color:  olive;}
     to {background-color: brown;}
@@ -48,17 +49,23 @@ a{
     100% {color : rgb(54, 2, 54);}
 }
 .f3{    /*Item*/
-    font-size: 40px;
-    color:gray;
+    font-size: 45px;
+    color:#c8a97e;
     font-family: "Great Vibes", cursive;
     text-align : center;
     margin-bottom : 5px;
     animation: color-change 5s infinite;
 }
+.f31{
+    color: #c8a97e;
+    font-size: 60px;
+    font-family: "Great Vibes", cursive;
+    text-align: center;
+}
 .s1, .d2{
     /*section div*/
     padding: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     display: flex;
     flex: 1;              
     margin-left: 15px;
