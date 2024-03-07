@@ -10,7 +10,7 @@
 }
 .d33:hover{
     background-color:olive;
-    animation-name: index;
+    animation-name: index; /*keyframe*/  
     animation-duration:6s;
     border-radius: 5px;
 }
@@ -20,7 +20,7 @@
 }
 .d34:hover{
     background-color:black;
-    animation-name: index1;
+    animation-name: index1; /*keyframs*/
     animation-duration:10s;
     border-radius: 3px;
     border-width: 2px;

@@ -32,11 +32,15 @@
     box-sizing: inherit;
 }
 .f2{ /*footer*/
+    
     background:black;
     border-radius: 25px;
     height: 450px;
     text-align: center;
     display: flex;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
 }
 .m1{   /*about*/
     font-size: 16px;
