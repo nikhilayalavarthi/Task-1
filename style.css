@@ -1,7 +1,13 @@
 .c1{ /*header*/
     background:black;
-    margin-bottom: 10px;
-    border-radius: 10px;
+    margin-bottom: 50px;
+    background-size: cover;
+    width: 100%;
+    top: 0;
+    left: auto;
+    right: 0;
+    line-height: 2;
+    position: fixed;
 }
 
 @keyframes index{ /*home,order*/
@@ -53,6 +59,7 @@ a{
     color:#c8a97e;
     font-family: "Great Vibes", cursive;
     text-align : center;
+    margin-top: 10px;
     margin-bottom : 5px;
     animation: color-change 5s infinite;
 }
