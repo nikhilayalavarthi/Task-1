@@ -108,10 +108,10 @@ a{
     font-family: "Great Vibes", cursive;
     font-size: 60px;
     color: white;
-    left: 350px;
+    left: 270px;
     top:250px;
     font-weight: 900;
-    font-size: 60px
+    font-size: 70px
 }
 .q4{
     position: absolute;
@@ -132,4 +132,45 @@ a{
     left:650;
     top:410px;
     width: 105px;
+}
+.se{
+   
+}
+.mango{
+    margin-top: 30px;
+    margin-left: 115px;
+    width: 10px;
+    box-sizing: inherit;
+   
+}
+.panner{
+    margin-top: 65px;
+    margin-left: 325px;
+
+}
+.container{
+        display: flex;
+        justify-content: center;
+        line-height: 1;
+        right: 20px;
+        text-align: center;
+        letter-spacing: 0.00938em;
+        font-size: 85px;
+        font-weight: 400;
+        margin-right: 80px;
+}
+.text{
+    font-family:"Great Vibes", cursive;
+    color: #c8a97e;
+    margin-top: 65px;
+ 
+
+}
+.p2 {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    font-size: 20px;
+    box-sizing:inherit ;
 }
